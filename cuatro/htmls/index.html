@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Led Python</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="eel.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+	<div class="led">
+	    <h2 style="color: green;">Verde</h2>
+	    <h1>Estado <b id="title1">Apagado</b> </h1> 
+	    <label class="switch">
+		<input type="checkbox" id="btn_led1">
+		<span class="slider round"></span>
+	    </label>
+	</div>
+	<div class="led">
+	    <h2 style="color: blue;">Azul</h2>
+	    <h1>Estado <b id="title2">Apagado</b> </h1> 
+	    <label class="switch">
+		<input type="checkbox" id="btn_led2">
+		<span class="slider round"></span>
+	    </label>
+	</div>
+	<div class="led">
+	    <h2 style="color: yellow">Amarilla</h2>
+	    <h1>Estado <b id="title3">Apagado</b> </h1> 
+	    <label class="switch">
+		<input type="checkbox" id="btn_led3">
+		<span class="slider round"></span>
+	    </label>
+	</div>
+	<div class="led">
+	    <h2 style="color: red;">Roja</h2>
+	    <h1>Estado <b id="title4">Apagado</b> </h1> 
+	    <label class="switch">
+		<input type="checkbox" id="btn_led4">
+		<span class="slider round"></span>
+	    </label>
+	</div>
+    </div>
+
+
+    <i class="fas fa-lightbulb-on fa-fw"></i>
+    <script src="./logic.js"></script>
+</body>
+</html>
